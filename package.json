@@ -1,0 +1,29 @@
+{
+  "name": "pratica",
+  "version": "1.0.0",
+  "description": "repositorio de pratica dos estudos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hudson-Pereira/Pratica.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hudson-Pereira/Pratica/issues"
+  },
+  "homepage": "https://github.com/Hudson-Pereira/Pratica#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
